@@ -2,6 +2,7 @@
 
 = IsoAlgo Dimensioning Options =
 
+== 1.Introduction ==
 IsoAlgo can output several types of dimensions with different amounts of detail. The main types of dimensioning are: 
  * String dimensions(the default);
  * Composite dimensions;
@@ -14,7 +15,7 @@ Figure 3.2.1 Support, String and Overall dimensions
 
 
 
-= Details =
+== 2.Details ==
 *String dimensions* are measured between the following points: 
  * The start or end of a branch;
  * Changes of direction(bends, elbows etc.);
