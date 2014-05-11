@@ -1,4 +1,4 @@
-#summary One-sentence summary of this page.
+#summary How to config the IsoAlgo Dimensioning Options.
 
 = IsoAlgo Dimensioning Options =
 
@@ -15,6 +15,23 @@ Figure 3.2.1 Support, String and Overall dimensions
 
 
 = Details =
+*String dimensions* are measured between the following points: 
+ * The start or end of a branch;
+ * Changes of direction(bends, elbows etc.);
+ * Component connection points(flanges, welds, screwed and compression joints etc., excluding gaskets);
+
+*Composite dimensioning* ignores dimensions which the fabricator has no control over, particularly the sizes of individual components. Component which are directly connected to each other are therefore dimensioned as though they constitute a single composite item. 
+
+*Overall dimensions* indicate the lengths of the following sections of a pipeline: 
+ * From the start of a branch to the first change of direction;
+ * From each change diretion to the next;
+ * From the last change of direction to the end of a Branch;
+ * From the start of a falling section skew-box to the end of the falling section skew-box;
+ * Between Branch connections.
+
+In IsoAlgo you can config the dimensioning options by IsoAlgoConfig.xml. By choosing different representation for different dimension type: <br>
+<img title="Figure 3.2.2 Config different dimension types" style="border-top: 0px; border-right: 0px;background-image: none; border-bottom: 0px; padding-top: 0px; padding-left: 0px; margin: 0px; border-left: 0px; display: inline; padding-right: 0px" border="0" alt="Figure 3.2.2 Config different dimension types" src="http://www.cppblog.com/images/cppblog_com/eryar/Windows-Live-Writer/IsoAlgo-Dimensioning-Options_F869/image_thumb_2.png" width="780" height="611" /> <br>
+Figure 3.2.2 Config different dimension types 
 
 Add your content here.  Format your content with:
   * Text in *bold* or _italic_
