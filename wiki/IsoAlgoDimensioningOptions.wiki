@@ -1,8 +1,17 @@
 #summary One-sentence summary of this page.
 
-= Introduction =
+= IsoAlgo Dimensioning Options =
 
-Add your content here.
+IsoAlgo can output several types of dimensions with different amounts of detail. The main types of dimensioning are: 
+ * String dimensions(the default);
+ * Composite dimensions;
+ * Overall dimensions;
+ * Support Dimensions;
+
+The different types are illustrated in the following figure: <br>
+<img title="Figure 3.2.1 Support, String and Overall dimensions" style="border-top: 0px; border-right: 0px;background-image: none; border-bottom: 0px; padding-top: 0px; padding-left: 0px; margin: 0px; border-left: 0px; display: inline; padding-right: 0px" border="0" alt="Figure 3.2.1 Support, String and Overall dimensions" src="http://www.cppblog.com/images/cppblog_com/eryar/Windows-Live-Writer/IsoAlgo-Dimensioning-Options_F869/wps_clip_image-25179_thumb.png" width="417" height="191" /> <br>
+Figure 3.2.1 Support, String and Overall dimensions 
+
 
 
 = Details =
