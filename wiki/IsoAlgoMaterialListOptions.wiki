@@ -1,4 +1,5 @@
-#Customise IsoAlgo Material List Options.
+#labels Phase-Implementation,MaterialListOptions
+#Customise Material List Options.
 
 = 1. Introduction =
 IsoAlgo can produce a customised Material List. The Material List columns maybe selected from one attribute of the component. 
