@@ -1,0 +1,40 @@
+#Customise IsoAlgo Material List Options.
+
+= 1. Introduction =
+IsoAlgo can produce a customised Material List. The Material List columns maybe selected from one attribute of the component. 
+
+= 2. Material List Options =
+You can specify the material list datum position on the drawing. The entries in the material list are numbered sequentially, each entry contains the material’s description, nominal size, item code and quantity. You can customize the material list by modify the IsoAlgoConfig.xml:
+<img title="Figure 1 Material List Options in IsoAlgoConfig.xml " style="border-top: 0px; border-right: 0px;background-image: none; border-bottom: 0px; padding-top: 0px; padding-left: 0px; margin: 0px; border-left: 0px; display: inline; padding-right: 0px" border="0" alt="Figure 1 Material List Options in IsoAlgoConfig.xml " src="http://www.cppblog.com/images/cppblog_com/eryar/Windows-Live-Writer/IsoAlgo-Material-List-Options_11864/wps_clip_image-6813_thumb.png" width="533" height="364" /> <br>
+Figure 1 Material List Options in IsoAlgoConfig.xml 
+
+First, you specify the character size and the line spacing percent of the material list;
+Second, specify the material list datum position on the drawing, modify the X and Y value for the ListDatum. The IsAscending is used to control the material list direction. If the IsAscending is true, the material list ‘s part number from 1 to N is from up to the bottom, else the material list’s part number from 1 to N is from bottom to the up.
+
+<img title="Figure 2 Material List with IsAscending is true" style="border-top: 0px; border-right: 0px;background-image: none; border-bottom: 0px; padding-top: 0px; padding-left: 0px; margin: 0px; border-left: 0px; display: inline; padding-right: 0px" border="0" alt="Figure 2 Material List with IsAscending is true" src="http://www.cppblog.com/images/cppblog_com/eryar/Windows-Live-Writer/IsoAlgo-Material-List-Options_11864/wps_clip_image-1402_thumb.png" width="556" height="263" /> <br>
+Figure 2 Material List with IsAscending is true
+
+<img title="Figure 3 Material List with IsAscending is false " style="border-top: 0px; border-right: 0px;background-image: none; border-bottom: 0px; padding-top: 0px; padding-left: 0px; margin: 0px; border-left: 0px; display: inline; padding-right: 0px" border="0" alt="Figure 3 Material List with IsAscending is false " src="http://www.cppblog.com/images/cppblog_com/eryar/Windows-Live-Writer/IsoAlgo-Material-List-Options_11864/wps_clip_image-22754_thumb.png" width="556" height="236" /> <br>
+Figure 3 Material List with IsAscending is false 
+
+<img title="Figure 4 Isometric drawing with Material List" style="border-top: 0px; border-right: 0px;background-image: none; border-bottom: 0px; padding-top: 0px; padding-left: 0px; margin: 0px; border-left: 0px; display: inline; padding-right: 0px" border="0" alt="Figure 4 Isometric drawing with Material List" src="http://www.cppblog.com/images/cppblog_com/eryar/Windows-Live-Writer/IsoAlgo-Material-List-Options_11864/wps_clip_image-25567_thumb.png" width="554" height="394" /> <br>
+Figure 4 Isometric drawing with Material List
+
+
+= 3. Material List Column Definitions =
+You can specify each column of the material list, the import attribute is Fill and Width. The Fill is used to map the value for the material list and the Width is used to set the width of that column. So you can decide the content of each column. For example, if you do not want the ITEMCODE column, you can remove that column.
+
+<img title="Figure 5 Material List Column Definitions " style="border-top: 0px; border-right: 0px;background-image: none; border-bottom: 0px; padding-top: 0px; padding-left: 0px; margin: 0px; border-left: 0px; display: inline; padding-right: 0px" border="0" alt="Figure 5 Material List Column Definitions " src="http://www.cppblog.com/images/cppblog_com/eryar/Windows-Live-Writer/IsoAlgo-Material-List-Options_11864/wps_clip_image-12218_thumb.png" width="554" height="276" /> <br>
+Figure 5 Material List Column Definitions 
+
+<img title="Figure 6 Material List Column Definitions Result" style="border-top: 0px; border-right: 0px;background-image: none; border-bottom: 0px; padding-top: 0px; padding-left: 0px; border-left: 0px; display: inline; padding-right: 0px" border="0" alt="Figure 6 Material List Column Definitions Result" src="http://www.cppblog.com/images/cppblog_com/eryar/Windows-Live-Writer/IsoAlgo-Material-List-Options_11864/wps_clip_image-20577_thumb.png" width="556" height="267" /> <br>
+Figure 6 Material List Column Definitions Result
+
+<img title="Isometric drawing generatd by IsoAlgo" style="border-top: 0px; border-right: 0px;background-image: none; border-bottom: 0px; padding-top: 0px; padding-left: 0px; margin: 0px; border-left: 0px; display: inline; padding-right: 0px" border="0" alt="Isometric drawing generatd by IsoAlgo" src="http://www.cppblog.com/images/cppblog_com/eryar/Windows-Live-Writer/IsoAlgo-Material-List-Options_11864/image_thumb.png" width="963" height="684" /> <br>
+Figure 7 Isometric drawing generatd by IsoAlgo
+
+<img title="Isometric drawing generatd by IsoAlgo" style="border-top: 0px; border-right: 0px;background-image: none; border-bottom: 0px; padding-top: 0px; padding-left: 0px; margin: 0px; border-left: 0px; display: inline; padding-right: 0px" border="0" alt="Isometric drawing generatd by IsoAlgo" src="http://www.cppblog.com/images/cppblog_com/eryar/Windows-Live-Writer/IsoAlgo-Material-List-Options_11864/image_thumb_1.png" width="964" height="685" /> <br>
+Figure 8 Isometric drawing generatd by IsoAlgo
+
+<img title="Isometric drawing generatd by IsoAlgo" style="border-top: 0px; border-right: 0px;background-image: none; border-bottom: 0px; padding-top: 0px; padding-left: 0px; margin: 0px; border-left: 0px; display: inline; padding-right: 0px" border="0" alt="Isometric drawing generatd by IsoAlgo" src="http://www.cppblog.com/images/cppblog_com/eryar/Windows-Live-Writer/IsoAlgo-Material-List-Options_11864/image_thumb_2.png" width="963" height="682" />
+Figure 9 Isometric drawing generatd by IsoAlgo
