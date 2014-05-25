@@ -1,0 +1,27 @@
+#summary IsoAlgo Fall Indicator for slope pipeline.
+
+= Introduction =
+
+The slope of a pipe is how steep of an angle the pipe is at. The steeper the angle, the faster water will flow through the pipe. In order to calculate the slope of the pipe, you need to image the pipe is the hypotenuse of a right triangle. 
+
+<img title="Figure 1. A Slope Pipe" style="border-top: 0px; border-right: 0px;background-image: none; border-bottom: 0px; padding-top: 0px; padding-left: 0px; margin: 0px; border-left: 0px; display: inline; padding-right: 0px" border="0" alt="Figure 1. A Slope Pipe" src="http://www.cppblog.com/images/cppblog_com/eryar/Windows-Live-Writer/IsoAlgo-Fall-Indicator_C6E3/wps_clip_image-1748_thumb.png" width="556" height="236" /> <br>
+Figure 1. A Slope Pipe 
+
+A slope percentage is a way of expressing the ration of the angle of a slope. It is calculated by dividing the rise of the slope by the distance necessary to make the rise. Its calculation formula: 
+  Sp = (H / L ) x 100%; 
+
+A slope degree is the tan angle of the delta height and length, its calculation formula: 
+  Sd = atan(H / L); 
+
+
+= Details =
+
+You can choose different fall indicator type and set its limit. If the slope out of the limit, the slope symbol will be shown. 
+<img title="Figure 2. Fall Indicator in IsoAlgoConfig.xml" style="border-top: 0px; border-right: 0px;background-image: none; border-bottom: 0px; padding-top: 0px; padding-left: 0px; margin: 0px; border-left: 0px; display: inline; padding-right: 0px" border="0" alt="Figure 2. Fall Indicator in IsoAlgoConfig.xml" src="http://www.cppblog.com/images/cppblog_com/eryar/Windows-Live-Writer/IsoAlgo-Fall-Indicator_C6E3/wps_clip_image-21447_thumb.png" width="554" height="398" /> <br>
+Figure 2. Fall Indicator in IsoAlgoConfig.xml
+
+<img title="Figure 3. Fall Indicator in Percent Type" style="border-top: 0px; border-right: 0px;background-image: none; border-bottom: 0px; padding-top: 0px; padding-left: 0px; margin: 0px; border-left: 0px; display: inline; padding-right: 0px" border="0" alt="Figure 3. Fall Indicator in Percent Type" src="http://www.cppblog.com/images/cppblog_com/eryar/Windows-Live-Writer/IsoAlgo-Fall-Indicator_C6E3/image_thumb_1.png" width="967" height="684" /> <br>
+Figure 3. Fall Indicator in Percent Type
+
+<img title="Figure 4. Fall Indicator in Degrees Type" style="border-top: 0px; border-right: 0px;background-image: none; border-bottom: 0px; padding-top: 0px; padding-left: 0px; margin: 0px; border-left: 0px; display: inline; padding-right: 0px" border="0" alt="Figure 4. Fall Indicator in Degrees Type" src="http://www.cppblog.com/images/cppblog_com/eryar/Windows-Live-Writer/IsoAlgo-Fall-Indicator_C6E3/image_thumb.png" width="967" height="682" /> <br>
+Figure 4. Fall Indicator in Degrees Type
